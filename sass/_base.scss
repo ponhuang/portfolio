@@ -1,3 +1,12 @@
+// COLOR //
+$color-primary: #e2d0c4;
+$color-primary-light: #f1e8e2;
+$color-text-primary: #443e3b;
+
+// FONT //
+$font-primary: omnes-pro, sans-serif;
+$font-secondary: mina, serif;
+
 *,
 *::after,
 *::before {
@@ -5,11 +14,16 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%; // 1rem=10px
+}
+
 body {
   background-color: $color-primary-light;
   color: $color-text-primary;
   text-align: center;
-  font-family: omnes-pro, sans-serif;
+  font-family: $font-primary;
   font-weight: 500;
   font-style: normal;
+  font-size: 1.6rem;
 }

@@ -4,13 +4,17 @@
   margin: 0;
   padding: 0; }
 
+html {
+  font-size: 62.5%; }
+
 body {
   background-color: #f1e8e2;
   color: #443e3b;
   text-align: center;
   font-family: omnes-pro, sans-serif;
   font-weight: 500;
-  font-style: normal; }
+  font-style: normal;
+  font-size: 1.6rem; }
 
 .heading {
   display: block;
@@ -23,11 +27,14 @@ body {
     transform: translate(-50%, -50%);
     z-index: 30; }
   .heading__title {
+    font-size: 3rem;
     font-weight: 700;
     font-style: normal; }
   .heading__subtitle {
+    font-size: 1.5rem;
     font-weight: 500;
-    font-style: italic; }
+    font-style: italic;
+    letter-spacing: 0.5px; }
 
 .illus {
   width: 200px; }
