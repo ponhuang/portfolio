@@ -1,0 +1,46 @@
+.heading {
+  display: block;
+  position: relative;
+  padding: 100px;
+
+  &__content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  &__subtitle {
+    font-weight: 500;
+    font-style: italic;
+  }
+}
+
+.illus {
+  width: 200px;
+}
+
+.bird {
+  position: absolute;
+  left: 20%;
+  top: 5%;
+  z-index: 10;
+}
+
+.nude-circle {
+  position: absolute;
+  left: 25%;
+  top: -7%;
+  z-index: 5;
+}
+
+.rusty {
+  position: absolute;
+  top: 300px;
+}
