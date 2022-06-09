@@ -230,6 +230,7 @@ hr {
       transform: rotate(-2deg) scale(1.1); }
 
 .copyright {
+  font-size: 1.3rem;
   color: #696562;
-  padding-top: 3rem;
-  padding-bottom: 2rem; }
+  padding-top: 2.5rem;
+  padding-bottom: 3rem; }
