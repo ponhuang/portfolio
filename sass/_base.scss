@@ -1,7 +1,13 @@
 // COLOR //
 $color-primary: #e2d0c4;
 $color-primary-light: #f1e8e2;
+$color-primary-light-2: #fff9ef;
+$color-primary-dark: #d7b49a;
+$color-secondary: #63a7dc;
+$color-tertiary: #ff7ebd;
+$color-fourthiary: #ffc20d;
 $color-text-primary: #443e3b;
+$color-text-primary-light: #696562;
 
 // FONT //
 $font-primary: omnes-pro, sans-serif;
@@ -26,4 +32,64 @@ body {
   font-weight: 500;
   font-style: normal;
   font-size: 1.6rem;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dashed;
+  border-color: $color-primary;
+}
+
+// REUSABLE CLASS //
+.hr-dot {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: $color-primary;
+  border-width: 0.6rem;
+  width: 3%;
+  margin: 8rem auto;
+}
+
+.illus {
+  width: 18%;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: $color-primary-light-2;
+  background-color: $color-secondary;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 1.5rem;
+  padding: 1rem 3rem;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    background-color: $color-tertiary;
+    transform: translateY(-3px);
+    box-shadow: 0.5rem 0.4rem 0.1rem rgba($color-primary, 0.7);
+  }
+  &:active {
+    transform: translateY(0);
+    background-color: $color-fourthiary;
+    box-shadow: 0 0 0 rgba($color-primary, 0.7);
+  }
+}
+
+// HELPER CLASS //
+.mb-largest {
+  margin-bottom: 10rem;
+}
+
+.mb-large {
+  margin-bottom: 6rem;
+}
+
+.mb-medium {
+  margin-bottom: 4rem;
+}
+
+.mb-small {
+  margin-bottom: 1.5rem;
 }

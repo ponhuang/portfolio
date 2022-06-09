@@ -1,0 +1,106 @@
+.profile {
+  &__content {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 3rem 0;
+  }
+
+  &__info {
+    width: 50%;
+    margin: 0 auto;
+
+    p {
+      font-size: 1.7rem;
+    }
+  }
+
+  &__img-box {
+    position: relative;
+    height: 30rem;
+  }
+
+  .pink-circle {
+    width: 25rem;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    z-index: 5;
+  }
+
+  .circle-orange {
+    width: 17rem;
+    position: absolute;
+    top: 40%;
+    left: 53%;
+    z-index: 10;
+  }
+
+  &__img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 15rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0.5rem solid $color-primary-light;
+    z-index: 20;
+  }
+}
+
+.heading-2 {
+  font-size: 3rem;
+}
+
+.heading-3 {
+  display: inline-block;
+  color: $color-primary-light-2;
+  background-color: $color-primary-dark;
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.skill {
+  &__row {
+    width: 50%;
+    margin: 0rem auto 6rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  &__text {
+    text-align: start;
+
+    p {
+      font-size: 1.8rem;
+    }
+  }
+
+  .rusty-img {
+    width: 40%;
+  }
+
+  .saxifragra-img {
+    width: 43%;
+  }
+}
+
+.contact {
+  width: 70%;
+  margin: 0 auto;
+
+  &__title {
+    font-size: 1.8rem;
+  }
+
+  &__text {
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    width: 60%;
+  }
+}

@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 4rem;
+  justify-content: end;
+  background-color: $color-primary;
+
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-secondary;
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+
+    &:hover,
+    &:active {
+      color: $color-text-primary;
+      background-color: $color-primary;
+      box-shadow: 0 0.2rem 0.5rem rgba($color-primary-dark, 0.3);
+      transform: rotate(-2deg) scale(1.1);
+    }
+  }
+}

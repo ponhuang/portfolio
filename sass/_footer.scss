@@ -1,0 +1,45 @@
+.footer {
+  background-color: $color-primary;
+  padding-top: 6rem;
+
+  &__nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    &__item {
+      display: inline-block;
+      &:not(:last-child) {
+        margin-right: 1.5rem;
+      }
+    }
+
+    &__link {
+      &:link,
+      &:visited {
+        text-decoration: none;
+        color: $color-text-primary;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        padding: 0.5rem 1.5rem;
+        border-radius: 1.5rem;
+        transition: all 0.2s;
+      }
+
+      &:hover,
+      &:active {
+        color: inherit;
+        background-color: $color-primary;
+        box-shadow: 0 0.2rem 0.5rem rgba($color-primary-dark, 0.3);
+        transform: rotate(-2deg) scale(1.1);
+      }
+    }
+  }
+}
+
+.copyright {
+  color: $color-text-primary-light;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
